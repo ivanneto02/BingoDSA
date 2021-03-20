@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=.70, user-scalable=no">
+    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+
+    <title>repl.it</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@439;700&family=Prompt:wght@300;500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <header>
+    <h1>BINGO</h1>
+      <h2>Created By DSA Leaders!</h2>
+  </header>
+  <body>
+    <script src="script.js"></script>
+
+    <table>
+	<tr>
+		<th id="B-in-bingo" width="20%">B</th>
+		<th width="20%">I</th>
+		<th width="20%">N</th>
+		<th width="20%">G</th>
+		<th id="O-in-bingo" width="20%">O</th>
+	</tr>
+	<tr>
+		<td id="square0" onmouseover="onBoxHover('square0')" onmouseout="changeBack('square0')" onclick="select('square0');">&nbsp;</td>
+		<td id="square1" onmouseover="onBoxHover('square1')" onclick="select('square1');" onmouseout="changeBack('square1')">&nbsp;</td>
+		<td id="square2" onclick="select('square2');" onmouseover="onBoxHover('square2')" onmouseout="changeBack('square2')">&nbsp;</td>
+		<td id="square3" onclick="select('square3');" onmouseover="onBoxHover('square3')" onmouseout="changeBack('square3')">&nbsp;</td>
+		<td id="square4" onclick="select('square4');" onmouseover="onBoxHover('square4')" onmouseout="changeBack('square4')">&nbsp;</td>
+	</tr>
+	<tr>
+		<td id="square5" onclick="select('square5');" onmouseover="onBoxHover('square5')" onmouseout="changeBack('square5')">&nbsp;</td>
+		<td id="square6" onclick="select('square6');" onmouseover="onBoxHover('square6')" onmouseout="changeBack('square6')">&nbsp;</td>
+		<td id="square7" onclick="select('square7');" onmouseover="onBoxHover('square7')" onmouseout="changeBack('square7')">&nbsp;</td>
+		<td id="square8" onclick="select('square8');" onmouseover="onBoxHover('square8')" onmouseout="changeBack('square8')">&nbsp;</td>
+		<td id="square9" onclick="select('square9');" onmouseover="onBoxHover('square9')" onmouseout="changeBack('square9')">&nbsp;</td>
+	</tr>
+	<tr>
+		<td id="square10" onclick="select('square10');" onmouseover="onBoxHover('square10')" onmouseout="changeBack('square10')">&nbsp;</td>
+		<td id="square11" onclick="select('square11');" onmouseover="onBoxHover('square11')" onmouseout="changeBack('square11')">&nbsp;</td>
+		<td id="free">Free</td>
+		<td id="square12" onclick="select('square12');" onmouseover="onBoxHover('square12')" onmouseout="changeBack('square12')">&nbsp;</td>
+		<td id="square13" onclick="select('square13');" onmouseover="onBoxHover('square13')" onmouseout="changeBack('square13')">&nbsp;</td>
+	</tr>
+	<tr>
+		<td id="square14" onclick="select('square14');" onmouseover="onBoxHover('square14')" onmouseout="changeBack('square14')">&nbsp;</td>
+		<td id="square15" onclick="select('square15');" onmouseover="onBoxHover('square15')" onmouseout="changeBack('square15')">&nbsp;</td>
+		<td id="square16" onclick="select('square16');" onmouseover="onBoxHover('square16')" onmouseout="changeBack('square16')">&nbsp;</td>
+		<td id="square17" onclick="select('square17');" onmouseover="onBoxHover('square17')" onmouseout="changeBack('square17')">&nbsp;</td>
+		<td id="square18" onclick="select('square18');" onmouseover="onBoxHover('square18')" onmouseout="changeBack('square18')">&nbsp;</td>
+	</tr>
+	<tr>
+		<td id="square19" onclick="select('square19');" onmouseover="onBoxHover('square19')" onmouseout="changeBack('square19')">&nbsp;</td>
+		<td id="square20" onclick="select('square20');" onmouseover="onBoxHover('square20')" onmouseout="changeBack('square20')">&nbsp;</td>
+		<td id="square21" onclick="select('square21');" onmouseover="onBoxHover('square21')" onmouseout="changeBack('square21')">&nbsp;</td>
+		<td id="square22" onclick="select('square22');" onmouseover="onBoxHover('square22')" onmouseout="changeBack('square22')">&nbsp;</td>
+		<td id="square23" onclick="select('square23');" onmouseover="onBoxHover('square23')" onmouseout="changeBack('square23')">&nbsp;</td>
+	</tr>
+</table>
+<p><button href="script.html" id="reload" onclick="reloadSquares();">Click here</button> to create a new card</p>
+  </body>
+</html>
